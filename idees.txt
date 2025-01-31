@@ -1,0 +1,36 @@
+Fonds article 9 :
+    - article 9 = objectif d'investissement durable
+    - DNSH
+    - avoir presque 100% d'investissement durable
+    - Benchmark aligné sur un objectif durable
+    - Filtres et exclusions normatives
+
+Données input TB = MSCI World Developed Markets
+
+Benchmark adaptés :
+    - MSCI World ESG Leaders Index : notes ESG > moyenne
+    - MSCI World SRI Index : meilleurs notes ESG sans les controverses
+
+DNSH : garder les notes sur les 3 pilliers afin d'exclure un certain quantile sur chaque pillier pour être sur de DNSH
+
+Objectifs :
+    - Se focus sur un objectif particulier (température, ODD ...)
+    - Multifactoriel avec facteur sur l'objectif choisi
+    - Exclusion de secteur classique : armes, pétrole, charbon, tabac
+    - Choix à faire : faire trop d'exclusions va trop limiter l'univers et rendre le modèle factoriel inutile
+
+Proposition de facteur ESG : biodiversité
+    - métrique ODD 14 vie aquatique
+    - métrique ODD 15 vie terrestre
+    - métrique ODD 13 mesures changement climatique OU score pillier E
+
+Process :
+    - Sélection de Benchmark
+    - Garder les colonnes pertinentes dans notre cas
+    - Exclusions : secteurs, DNSH, worst-in-class (?)
+    - Constuire le modèle factoriel : déterminer les pondérations
+    - Output du ptf, sortir les métriques etc ...
+
+Rendus :
+    - PPT 10 slides : objectif ptf, filtres, règles et pondérations
+    - Compo ptf : titres et pondérations
