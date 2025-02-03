@@ -5,6 +5,18 @@ Fonds article 9 :
     - Benchmark aligné sur un objectif durable
     - Filtres et exclusions normatives
 
+Lien pour les SDG https://www.msci.com/documents/1296102/15233886/MSCI+SDG+Alignment+Methodology.pdf
+
+Score >5.0: Strongly Aligned.
+• Score between 2.0 and 5.0, inclusive: Aligned.
+• Score less than 2.0 but higher than -2.0: Neutral.
+• Score equal to or less than -2.0 but higher than -10: Misaligned.
+• Score equal to -10: Strongly Misaligned.
+
+Exclusion des entreprises ayant un SDG < -2 ?
+
+Exclusion des entreprises ayant des flags de controverse rouge ou orange
+
 Données input TB = MSCI World Developed Markets
 
 Benchmark adaptés :
@@ -17,6 +29,9 @@ Objectifs :
     - Se focus sur un objectif particulier (température, ODD ...)
     - Multifactoriel avec facteur sur l'objectif choisi
     - Exclusion de secteur classique : armes, pétrole, charbon, tabac
+	Pour les Controversial Weapons % : CWEAP_TIE
+	Pour le tabac : TOB_PRODUCER 
+	
     - Choix à faire : faire trop d'exclusions va trop limiter l'univers et rendre le modèle factoriel inutile
 
 Proposition de facteur ESG : biodiversité
